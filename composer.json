@@ -1,0 +1,20 @@
+{
+    "name": "lextira/openapi-parse-test",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/lextira/php-openapi.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lextira\\OpenapiParseTest\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "cebe/php-openapi": "dev-cache-ref-files as 1.4.x-dev",
+        "symfony/stopwatch": "^6.0"
+    }
+}
