@@ -4,7 +4,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/marcelthole/php-openapi.git"
+            "url": "https://github.com/NickSdot/cebe-php-openapi"
         }
     ],
     "autoload": {
@@ -14,7 +14,7 @@
     },
     "require": {
         "php": ">=8.0",
-        "cebe/php-openapi": "dev-resolve-perfomance-156 as 1.6.x-dev",
+        "cebe/php-openapi": "dev-improve-performance as 1.6.x-dev",
         "symfony/stopwatch": "^6.0"
     }
 }
