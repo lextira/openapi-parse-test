@@ -9,7 +9,7 @@
     },
     "require": {
         "php": ">=8.0",
-        "cebe/php-openapi": "^1.6",
+        "cebe/php-openapi": "1.6",
         "symfony/stopwatch": "^6.0"
     }
 }
